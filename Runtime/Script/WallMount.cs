@@ -1,13 +1,15 @@
-﻿
-using UdonSharp;
+﻿using UdonSharp;
 using UnityEngine;
-using VRC.SDKBase;
-using VRC.Udon;
 
-public class WallMount : UdonSharpBehaviour
+namespace ControlPanel.Script
 {
-    void Start()
+    public class WallMount : UdonSharpBehaviour
     {
-        
+        [SerializeField] private ControlPanel _controlPanel;
+
+        public void ResetControlPanelPosition()
+        {
+            _controlPanel.transform.position = transform.forward * 0.11f;
+        }
     }
 }

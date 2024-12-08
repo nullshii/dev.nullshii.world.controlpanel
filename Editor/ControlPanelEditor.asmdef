@@ -1,0 +1,19 @@
+{
+    "name": "dev.nullshii.world.controlpanel.editor",
+    "rootNamespace": "ControlPanel",
+    "references": [
+        "GUID:e62b57c1901fc99439b7f8dcc5b25a84",
+        "GUID:343deaaf83e0cee4ca978e7df0b80d21"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

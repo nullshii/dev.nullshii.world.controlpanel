@@ -1,0 +1,19 @@
+{
+    "name": "dev.nullshii.world.controlpanel.runtime",
+    "rootNamespace": "ControlPanel",
+    "references": [
+        "GUID:99835874ee819da44948776e0df4ff1d",
+        "GUID:6490804aa441dfe4b88eb56cccbdf081"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "UDONSHARP"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
