@@ -1,0 +1,13 @@
+﻿{
+  "name": "dev.nullshii.world.controlpanel",
+  "version": "0.0.1",
+  "description": "Control panel for your home management",
+  "displayName": "Control Panel",
+  "author": {
+    "name": "nullshii",
+    "url": "https://nullshii.github.io/VRCWorldTools/author"
+  },
+  "vpmDependencies": {
+    "sh.orels.shaders": "7.0.0-dev.3"
+  }
+}
