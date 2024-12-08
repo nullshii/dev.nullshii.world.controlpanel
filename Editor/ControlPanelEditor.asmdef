@@ -3,7 +3,8 @@
     "rootNamespace": "ControlPanel",
     "references": [
         "GUID:e62b57c1901fc99439b7f8dcc5b25a84",
-        "GUID:343deaaf83e0cee4ca978e7df0b80d21"
+        "GUID:343deaaf83e0cee4ca978e7df0b80d21",
+        "GUID:99835874ee819da44948776e0df4ff1d"
     ],
     "includePlatforms": [
         "Editor"

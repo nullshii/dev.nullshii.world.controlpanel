@@ -1668,8 +1668,8 @@ MonoBehaviour:
   ExactGrip: {fileID: 0}
   allowManipulationWhenEquipped: 0
   orientation: 0
-  AutoHold: 1
-  InteractionText: 
+  AutoHold: 0
+  InteractionText: Grab Control Panel
   UseText: Use
   useEventBroadcastType: 0
   UseDownEventName: 
@@ -1717,6 +1717,7 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes: []
   _udonSharpBackingUdonBehaviour: {fileID: 1058256741948708297}
+  <Pickup>k__BackingField: {fileID: 4034388228621472201}
 --- !u!114 &1058256741948708297
 MonoBehaviour:
   m_ObjectHideFlags: 0
