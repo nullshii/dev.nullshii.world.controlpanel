@@ -19,11 +19,12 @@ namespace ControlPanel.Script
                 
             Networking.SetOwner(Networking.LocalPlayer, _controlPanel.gameObject);
             _controlPanel.Pickup.Drop();
+            _controlPanel.Pickup.pickupable = false;
 
             _isRespawning = true;
         }
 
-        public void DebugRespawnAndRemountControlPanel()
+        public void EditorRespawnAndRemountControlPanel()
         {
             if (_controlPanel == null) return;
             if (_respawnTransform == null) return;
@@ -38,11 +39,6 @@ namespace ControlPanel.Script
         private void Update()
         {
             if (!_isRespawning) return;
-
-            if (_controlPanel.Pickup.IsHeld)
-            {
-                _controlPanel.Pickup.Drop();
-            }
             
             Transform panelTransform = _controlPanel.transform;
             
@@ -53,6 +49,7 @@ namespace ControlPanel.Script
                 && Quaternion.Angle(panelTransform.rotation, _respawnTransform.rotation) < _minimumDistanceToEnd)
             {
                 _isRespawning = false;
+                _controlPanel.Pickup.pickupable = true;
             }
         }
     }

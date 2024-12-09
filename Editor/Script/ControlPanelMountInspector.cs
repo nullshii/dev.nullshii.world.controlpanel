@@ -46,7 +46,7 @@ namespace ControlPanel.Editor.Script
                 var controlPanelMount = target as ControlPanelMount;
 
                 if (controlPanelMount != null)
-                    controlPanelMount.DebugRespawnAndRemountControlPanel();
+                    controlPanelMount.EditorRespawnAndRemountControlPanel();
             }
 
             GUILayout.Label("Made by nullshii with ♥", EditorStyles.boldLabel);
