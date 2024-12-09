@@ -3,8 +3,8 @@ using UnityEditor;
 using UnityEngine;
 
 namespace ControlPanel.Editor.Script
-{
-    // [CustomEditor(typeof(ControlPanelMount), false)]
+{    
+    [CustomEditor(typeof(ControlPanelMount), false)]
     public class ControlPanelMountInspector : UnityEditor.Editor
     {
         public override void OnInspectorGUI()

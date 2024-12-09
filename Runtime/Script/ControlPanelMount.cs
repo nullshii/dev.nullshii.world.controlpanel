@@ -3,7 +3,7 @@ using UnityEngine;
 using VRC.SDKBase;
 
 namespace ControlPanel.Script
-{
+{   
     public sealed class ControlPanelMount : UdonSharpBehaviour
     {
         [SerializeField] private ControlPanel _controlPanel;
